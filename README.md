@@ -49,5 +49,16 @@ wholesale-clustering
 ## Analysis Clusters
 
 - 6 clusters are created.
+     |KMeans||Hierarchical|
+     |:--:|:--:|:--:|
+     |<img width="458" alt="image" src="https://user-images.githubusercontent.com/67853616/208429251-594212a2-06e6-4822-9e7c-7610af16d59a.png">|<img width="725" alt="image" src="https://user-images.githubusercontent.com/67853616/208429373-e6de6c0a-72ed-427b-9ce6-7f2430101c5f.png">|<img width="252" alt="image" src="https://user-images.githubusercontent.com/67853616/208429939-e8ddbba3-6d49-4aa9-89c2-50f959723990.png">|
+     
+     
+     <img width="1027" alt="image" src="https://user-images.githubusercontent.com/67853616/208430130-70fb25dc-66e1-4e71-95f2-23711fc4003e.png">
+
+     
 - explain each cluster here.
+<img width="1167" alt="image" src="https://user-images.githubusercontent.com/67853616/208428487-156ecac1-4067-4cfb-b38a-4dd7b246dd40.png">
+<img width="1078" alt="image" src="https://user-images.githubusercontent.com/67853616/208428539-98875e56-4977-43e6-b515-08b40dba1cf3.png">
+
 
