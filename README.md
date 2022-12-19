@@ -5,6 +5,17 @@
 - Clasifying sales data with given 8 features and giving appropriate sales idea with the result.
 - Use unsupervised learning – Hierarchical Clustering, DBSCAN, K-Means Clustering.
 
+ ## File Directory ## 
+ 
+ ```shell
+wholesale-clustering
+├── data
+│   └── Wholesale customers data.csv               # 연간 고객 판매량 데이터 csv
+├── wholesale-kmeans.ipynb                         # 반소희 : K-Means Clustering
+├── sales_hierarchical.ipynb                       # 장아연 :  Hierarchical Clusterin
+└── DBSCAN                        # DBSCAN
+```
+
 ## Methods
 
 1. load data
@@ -35,7 +46,7 @@
     - There are 2 nominal features, Region and Channel, and we can get 6 combinations from those features.
     - And we now can see that those 6 combinations corrrspond to 6 labels one-on-one.
 
-## Results
+## Analysis Clusters
 
 - 6 clusters are created.
 - explain each cluster here.
