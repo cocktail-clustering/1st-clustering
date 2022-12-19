@@ -11,7 +11,7 @@
 wholesale-clustering
 ├── data
 │   └── Wholesale customers data.csv               # 연간 고객 판매량 데이터 csv
-├── wholesale-kmeans.ipynb                         # 반소희 : K-Means Clustering
+├── wholesale-kmeans.ipynb                         # 반소희, 이서린 : K-Means Clustering
 ├── sales_hierarchical.ipynb                       # 장아연 :  Hierarchical Clusterin
 └── DBSCAN                        # DBSCAN
 ```
