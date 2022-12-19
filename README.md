@@ -12,9 +12,19 @@ wholesale-clustering
 ├── data
 │   └── Wholesale customers data.csv               # 연간 고객 판매량 데이터 csv
 ├── wholesale-kmeans.ipynb                         # 반소희, 이서린 : K-Means Clustering
-├── wholesale_hierarchical.ipynb                       # 장아연 :  Hierarchical Clusterin
-└── DBSCAN                        # DBSCAN
+├── wholesale_hierarchical.ipynb                   # 장아연 :  Hierarchical Clustering
+└── wholesale_DBScan.ipynb                         # 이희원, 최지민 : DBSCAN
 ```
+
+## Instructions
+1. Open colab by clicking links below
+    - [K-means (link)](https://colab.research.google.com/github/ml-clustering-proj/wholesale-clustering/blob/main/wholesale-kmeans.ipynb)
+    - [Hierarchical (link)](https://colab.research.google.com/github/ml-clustering-proj/wholesale-clustering/blob/main/wholesale_hierarchical.ipynb)
+    - [DBSCAN (link)](https://colab.research.google.com/github/ml-clustering-proj/wholesale-clustering/blob/main/wholesale_DBScan.ipynb)
+2. Set `Hardware accelerator` to GPU _(Runtime - Change runtime type - Hardware accelerator : GPU)_
+3. Run all codes _(shortcut: `cmd/ctrl + F9`)_
+
+--------
 
 ## Methods
 
@@ -61,4 +71,10 @@ wholesale-clustering
 <img width="1167" alt="image" src="https://user-images.githubusercontent.com/67853616/208428487-156ecac1-4067-4cfb-b38a-4dd7b246dd40.png">
 <img width="1078" alt="image" src="https://user-images.githubusercontent.com/67853616/208428539-98875e56-4977-43e6-b515-08b40dba1cf3.png">
 
-
+---
+### Reasons for DBScan failure
+* DBSCAN is sensitive to density of data
+* Data in each column are gathered in short range of sales amount(7000-12000) <br/><img width="450" alt="image" src="https://user-images.githubusercontent.com/60884877/208306344-9905d562-0310-4032-952a-49e9f11216a7.png">
+* Data are gathered in high and even density
+* It is hard to find appropriate epsilon and MinPts
+  * Because data are gathered in high density, slight change in hyperparameter occurs huge change in clustering result.
