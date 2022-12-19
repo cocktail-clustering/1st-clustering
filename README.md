@@ -11,7 +11,6 @@
 2. check missing value
     - As there was no missing value, skipped this step. 
 3. preprosessing 
-
     - numeric feature
         - normalization
             - For numeric features, there are some well known data preprosessing, standardlization and normalization.
@@ -40,3 +39,4 @@
 
 - 6 clusters are created.
 - explain each cluster here.
+
