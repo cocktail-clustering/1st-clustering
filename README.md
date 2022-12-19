@@ -1,10 +1,18 @@
-preprosessing 
+#K-Means Clustering
+
+#Data Check
+Loading data Wholesale customers data.csv as dataframe
+and check the value of each feature.
+
+#Preprosessing 
 
 Normalization
+
 For numeric features, there are some well known data preprosessing, standardlization and normalization.
 Our numeric features need to be normalized so we used minmax scaler for min max normalization. 
 
-Outliers
+About Outliers
+
 After normalization, we check byplot of each features and we can find out there are some outliers-based on IQR.
 So we replaced outliers with Q3 value(75% of max value) of each feature. 
 
@@ -17,11 +25,14 @@ As there was no missing value(null, NaN), skipped this step.
 
 For PCA, we already could get optimal K without doing this step, so skipped this step, too. 
 
-Finding Optimal K
+#Finding Optimal K
 - Elbow Method
 - Silhoutte Coefficient
 to find our optimal K, we used 2 methods mentioned above. For k in range 2 to 15, we drawed graph to check it visually.
 Through these two method, we could get Optimal K -> 6 in common. 
 
-Clustering with k=6
-Preceeding clustering with k=6.# 1st-clustering
+#Clustering with k=6
+Preceed clustering with k=6.
+There are 2 nominal features, Region and Channel, and we can get 6 combinations from those features.
+And we now can see that those 6 combinations corrrspond to 6 labels one-on-one.
+
