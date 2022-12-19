@@ -37,3 +37,6 @@
     - And we now can see that those 6 combinations corrrspond to 6 labels one-on-one.
 
 ## Results
+
+- 6 clusters are created.
+- explain each cluster here.
