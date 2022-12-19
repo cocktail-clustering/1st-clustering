@@ -2,14 +2,13 @@
 
 ## Purpose
 
-Clasifying sales data with given 8 features and giving appropriate sales idea with the result.
-
-Use unsupervised learning – Hierarchical Clustering, DBSCAN, K-Means Clustering.
+- Clasifying sales data with given 8 features and giving appropriate sales idea with the result.
+- Use unsupervised learning – Hierarchical Clustering, DBSCAN, K-Means Clustering.
 
 ## Methods
 
 1. load data
-2 check missing value
+2. check missing value
     - As there was no missing value, skipped this step. 
 3. preprosessing 
 
